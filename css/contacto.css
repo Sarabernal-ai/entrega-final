@@ -1,0 +1,300 @@
+/* BANNER */
+
+.banner-contacto{
+
+    width:100%;
+    height:500px;
+
+    background-image:url(../media/banners/banner-contacto.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.banner-contenido{
+
+    width:60%;
+    text-align:center;
+    color:#242424;
+
+}
+
+.banner-contenido h2{
+
+    font-family:'Cinzel', serif;
+    font-size:58px;
+    margin-bottom:20px;
+
+}
+
+.banner-contenido p{
+
+    font-family:'Lato', sans-serif;
+    font-size:20px;
+    line-height:35px;
+
+}
+
+
+/* INFORMACIÓN */
+
+.contacto-contenedor{
+
+    width:90%;
+    margin:90px auto;
+
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+
+}
+
+.contacto-card{
+
+    flex:1;
+
+    background:#FFFFFF;
+
+    border:1px solid #E8DFC8;
+
+    border-radius:18px;
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    transition:.4s;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.contacto-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+
+}
+
+.contacto-card h3{
+
+    font-family:'Cinzel', serif;
+    color:#C9A14A;
+    font-size:28px;
+    margin:20px 0;
+
+}
+
+.contacto-card p{
+
+    font-family:'Lato', sans-serif;
+    color:#555555;
+    margin-bottom:25px;
+    line-height:28px;
+
+}
+
+.contacto-card a{
+
+    text-decoration:none;
+
+    color:#C9A14A;
+
+    font-family:'Montserrat', sans-serif;
+
+    transition:.3s;
+
+}
+
+.contacto-card a:hover{
+
+    color:#A88232;
+
+}
+
+
+/* ICONOS */
+
+.icono-whatsapp,
+.icono-correo,
+.icono-ubicacion{
+
+    width:70px;
+    height:70px;
+
+    margin:auto;
+
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+
+.icono-whatsapp{
+
+    background-image:url(../media/iconos/whatsapp.png);
+
+}
+
+.icono-correo{
+
+    background-image:url(../media/iconos/correo.png);
+
+}
+
+
+
+/* FORMULARIO */
+
+.formulario-contacto{
+
+    width:80%;
+
+    margin:100px auto;
+
+    text-align:center;
+
+}
+
+.formulario-contacto h2{
+
+    font-family:'Cinzel', serif;
+
+    font-size:42px;
+
+    color:#C9A14A;
+
+    margin-bottom:20px;
+
+}
+
+.formulario-contacto p{
+
+    width:70%;
+
+    margin:auto;
+
+    font-family:'Lato', sans-serif;
+
+    font-size:18px;
+
+    color:#555555;
+
+    line-height:32px;
+
+}
+
+.boton-formulario{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+    padding:18px 40px;
+
+    background:#C9A14A;
+
+    color:#FFFFFF;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    font-family:'Montserrat', sans-serif;
+
+    transition:.3s;
+
+}
+
+.boton-formulario:hover{
+
+    background:#A88232;
+
+}
+
+
+/* REDES */
+
+.redes-contacto{
+
+    width:80%;
+
+    margin:100px auto;
+
+    text-align:center;
+
+}
+
+.redes-contacto h2{
+
+    font-family:'Cinzel', serif;
+
+    font-size:42px;
+
+    color:#C9A14A;
+
+    margin-bottom:20px;
+
+}
+
+.redes-contacto p{
+
+    width:70%;
+
+    margin:auto;
+
+    font-family:'Lato', sans-serif;
+
+    font-size:18px;
+
+    color:#555555;
+
+    line-height:32px;
+
+}
+
+.redes-botones{
+
+    margin-top:45px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.redes-botones a{
+
+    padding:15px 30px;
+
+    border:1px solid #C9A14A;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    color:#C9A14A;
+
+    font-family:'Montserrat', sans-serif;
+
+    transition:.3s;
+
+}
+
+.redes-botones a:hover{
+
+    background:#C9A14A;
+
+    color:#FFFFFF;
+
+}

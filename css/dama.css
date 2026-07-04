@@ -1,0 +1,1019 @@
+/* BANNER */
+
+.banner-dama {
+
+    width: 100%;
+    height: 500px;
+    background-image: url(../media/banners/banner-dama.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-contenido {
+
+    text-align: center;
+    color: #242424;
+    width: 50%;
+
+}
+
+.banner-contenido h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 58px;
+    margin-bottom: 20px;
+
+}
+
+.banner-contenido p {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+/* MARCAS */
+
+.marca-perfume {
+
+    width: 90%;
+    margin: 80px auto;
+    justify-content: space-around;
+
+}
+
+.marca-perfume h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    color: #C9A14A;
+    border-bottom: 2px solid #C9A14A;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+
+}
+
+/* TARJETAS - PERFUMES */
+
+.contenedor-perfumes {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.perfume {
+
+    width: 220px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.perfume h3 {
+
+    margin-top: 15px;
+    color: #2D2D2D;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+
+}
+
+/* IMAGEN - PERFUMES */
+
+.perfume div {
+
+    width: 220px;
+    height: 260px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .12);
+
+}
+
+.perfume:hover div {
+
+    transform: translateY(-10px);
+
+}
+
+.cloud {
+
+    background-image: url(../media/perfumes/dama/cloud.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.thankunext {
+
+    background-image: url(../media/perfumes/dama/thankunext.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.sweetlikecandy {
+
+    background-image: url(../media/perfumes/dama/sweetlikecandy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.cloudpink {
+
+    background-image: url(../media/perfumes/dama/cloudpink.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.acquadigioia {
+
+    background-image: url(../media/perfumes/dama/acquadigioia.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.si {
+
+    background-image: url(../media/perfumes/dama/si.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.fantasy {
+
+    background-image: url(../media/perfumes/dama/fantasy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.meow {
+
+    background-image: url(../media/perfumes/dama/meow.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.her {
+
+    background-image: url(../media/perfumes/dama/her.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.myburberry {
+
+    background-image: url(../media/perfumes/dama/myburberry.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.omniacoral {
+
+    background-image: url(../media/perfumes/dama/omniacoral.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.omniaamethyste {
+
+    background-image: url(../media/perfumes/dama/omniaamethyste.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.omniacrystalline{
+
+    background-image: url(../media/perfumes/dama/omniacrystalline.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+.omniaparaiba{
+
+        background-image: url(../media/perfumes/dama/omniaparaiba.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.amoramor{
+
+        background-image: url(../media/perfumes/dama/amoramor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.halloween{
+
+        background-image: url(../media/perfumes/dama/halloween.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.escape{
+
+        background-image: url(../media/perfumes/dama/escape.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.eternity{
+
+        background-image: url(../media/perfumes/dama/eternity.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.euphoria{
+
+        background-image: url(../media/perfumes/dama/euphoria.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.ckin2uforhim{
+
+        background-image: url(../media/perfumes/dama/ckin2uforhim.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.nyc212{
+
+        background-image: url(../media/perfumes/dama/212nyc.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.sexy212{
+
+        background-image: url(../media/perfumes/dama/212sexy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.vipforwomen212{
+
+        background-image: url(../media/perfumes/dama/212vipforwomen.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.viprose212{
+
+    background-image: url(../media/perfumes/dama/212viprose.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.goodgirl{
+
+    background-image: url(../media/perfumes/dama/goodgirl.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.goodgirlblush{
+
+    background-image: url(../media/perfumes/dama/goodgirlblush.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.verygoodgirl{
+
+    background-image: url(../media/perfumes/dama/verygoodgirl.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.chwoman{
+
+    background-image: url(../media/perfumes/dama/chwoman.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.flowerbomb{
+
+    background-image: url(../media/perfumes/dama/flowerbomb.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.dioraddict{
+
+    background-image: url(../media/perfumes/dama/dioraddict.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.jadore{
+
+    background-image: url(../media/perfumes/dama/jadore.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.missdiorbloomingbouquet{
+
+    background-image: url(../media/perfumes/dama/missdiorbloomingbouquet.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.chance{
+
+    background-image: url(../media/perfumes/dama/chance.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.cocomademoiselle{
+
+    background-image: url(../media/perfumes/dama/cocomademoiselle.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.gabrielle{
+
+    background-image: url(../media/perfumes/dama/gabrielle.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.n5{
+
+    background-image: url(../media/perfumes/dama/n5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.angeoudemon{
+
+    background-image: url(../media/perfumes/dama/angeoudemon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.organza{
+
+    background-image: url(../media/perfumes/dama/organza.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.lightblue{
+
+    background-image: url(../media/perfumes/dama/lightblue.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.theone{
+
+    background-image: url(../media/perfumes/dama/theone.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.limperatrice3{
+
+    background-image: url(../media/perfumes/dama/limperatrice3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.bossthescentforher{
+
+    background-image: url(../media/perfumes/dama/bossthescentforher.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.bosswoman{
+
+    background-image: url(../media/perfumes/dama/bosswoman.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.bossxx{
+
+    background-image: url(../media/perfumes/dama/bossxx.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.scandal{
+
+    background-image: url(../media/perfumes/dama/scandal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.flowerbykenzo{
+
+    background-image: url(../media/perfumes/dama/flowerbykenzo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.lavieestbelle{
+
+    background-image: url(../media/perfumes/dama/lavieestbelle.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.vivalajuicy{
+
+    background-image: url(../media/perfumes/dama/vivalajuicy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.l1212pourellesparkling{
+
+    background-image: url(../media/perfumes/dama/l1212pourellesparkling.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.touchofpink{
+
+    background-image: url(../media/perfumes/dama/touchofpink.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.l1212pourellemagnetic{
+
+    background-image: url(../media/perfumes/dama/l1212pourellemagnetic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.l1212rose{
+
+    background-image: url(../media/perfumes/dama/l1212rose.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.l1212pourellenatural{
+
+    background-image: url(../media/perfumes/dama/l1212pourellenatural.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.toy2bubblegum{
+
+    background-image: url(../media/perfumes/dama/toy2bubblegum.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.funny{
+
+    background-image: url(../media/perfumes/dama/funny.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.toy2{
+
+    background-image: url(../media/perfumes/dama/toy2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.ilovelove{
+
+    background-image: url(../media/perfumes/dama/ilovelove.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.goldfreshcouture{
+
+    background-image: url(../media/perfumes/dama/goldfreshcouture.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.fame{
+
+    background-image: url(../media/perfumes/dama/fame.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.ladymillion{
+
+    background-image: url(../media/perfumes/dama/ladymillion.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.ladymillionlucky{
+
+    background-image: url(../media/perfumes/dama/ladymillionlucky.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.ladymillionprive{
+
+    background-image: url(../media/perfumes/dama/ladymillionprive.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.blackxsforher{
+
+    background-image: url(../media/perfumes/dama/blackxsforher.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.forwomen360{
+
+    background-image: url(../media/perfumes/dama/360forwomen.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.coral360{
+
+    background-image: url(../media/perfumes/dama/coral360.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.ralph{
+
+    background-image: url(../media/perfumes/dama/ralph.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.rock{
+
+    background-image: url(../media/perfumes/dama/rock.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.sofiabysofiavergara{
+
+    background-image: url(../media/perfumes/dama/sofiabysofiavergara.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.angel{
+
+    background-image: url(../media/perfumes/dama/angel.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.tommygirl{
+
+    background-image: url(../media/perfumes/dama/tommygirl.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.baharararose{
+
+    background-image: url(../media/perfumes/dama/baharararose.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.parishilton{
+
+    background-image: url(../media/perfumes/dama/parishilton.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.cancan{
+
+    background-image: url(../media/perfumes/dama/cancan.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.heiress{
+
+    background-image: url(../media/perfumes/dama/heiress.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.yellowdiamond{
+
+    background-image: url(../media/perfumes/dama/yellowdiamond.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.brightcrystal{
+
+    background-image: url(../media/perfumes/dama/brightcrystal.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.dylanpurple{
+
+    background-image: url(../media/perfumes/dama/dylanpurple.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.pureseduction{
+
+    background-image: url(../media/perfumes/dama/pureseduction.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.coconutpassion{
+
+    background-image: url(../media/perfumes/dama/coconutpassion.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.barevainilla{
+
+    background-image: url(../media/perfumes/dama/barevainilla.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.bombshell{
+
+    background-image: url(../media/perfumes/dama/bombshell.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.yara{
+
+    background-image: url(../media/perfumes/dama/yara.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.yaracandy{
+
+    background-image: url(../media/perfumes/dama/yaracandy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.yaramoi{
+
+    background-image: url(../media/perfumes/dama/yaramoi.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.haya{
+
+    background-image: url(../media/perfumes/dama/haya.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.mayar{
+
+    background-image: url(../media/perfumes/dama/mayar.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.eclaire{
+
+    background-image: url(../media/perfumes/dama/eclaire.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.clubdenuitwoman{
+
+    background-image: url(../media/perfumes/dama/clubdenuitwoman.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.odysseycandy{
+
+    background-image: url(../media/perfumes/dama/odysseycandy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.odysseyyumyum{
+
+    background-image: url(../media/perfumes/dama/odysseyyumyum.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.odysseyislandbliss{
+
+    background-image: url(../media/perfumes/dama/odysseyislandbliss.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.touch{
+
+    background-image: url(../media/perfumes/dama/touch.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.valentinodonna{
+
+    background-image: url(../media/perfumes/dama/valentinodonna.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.loveinwhite{
+
+    background-image: url(../media/perfumes/dama/loveinwhite.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.blueseductionforwomen{
+
+    background-image: url(../media/perfumes/dama/blueseductionforwomen.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+/* MODAL */
+
+.modal {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .65);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+    overflow-y: auto;
+    z-index: 999;
+
+}
+
+.modal:target {
+
+    display: flex;
+
+}
+
+.ventana {
+
+
+    width: 900px;
+    max-width: 90%;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    position: relative;
+
+}
+
+.modal-imagen {
+
+    width: 320px;
+    height: 420px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.modal-texto {
+
+    flex: 1;
+
+}
+
+.modal-texto h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    color: #C9A14A;
+
+}
+
+.modal-texto h4 {
+
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.modal-texto h5 {
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+    color: #C9A14A;
+
+}
+
+.modal-texto p {
+
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+
+}
+
+.modal-texto ul {
+
+    margin-left: 20px;
+    line-height: 30px;
+
+}
+
+.cerrar {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #F5F5F5;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #2D2D2D;
+    font-size: 22px;
+    transition: .3s;
+
+}
+
+.cerrar:hover {
+
+    background: #C9A14A;
+    color: #FFFFFF;
+
+}
+
+.boton-whatsapp {
+
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 35px;
+    background-color: #C9A14A;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: .3s;
+
+}
+
+.boton-whatsapp:hover {
+
+    background-color: #A88232;
+
+}

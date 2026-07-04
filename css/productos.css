@@ -1,0 +1,136 @@
+/* BANNER PRODUCTOS */
+
+.banner-productos{
+
+    width:100%;
+    height:600px;
+    background-image:url(../media/banners/banner-productos.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.banner-contenido{
+
+    width:40%;
+    height: 500px;
+
+}
+
+.banner-contenido h2{
+
+    font-family:'Cinzel', serif;
+    font-size:55px;
+    color:#C9A14A;
+    margin-bottom:20px;
+    text-shadow:2px 2px 8px rgba(0,0,0,.5);
+
+}
+
+.banner-contenido p{
+
+    font-family:'Lato', sans-serif;
+    font-size:22px;
+    color: #242424;
+    line-height:35px;
+
+}
+
+/* CATEGORÍAS */
+
+.categorias{
+
+    width:90%;
+    margin:auto;
+    padding:80px 0;
+    text-align:center;
+
+}
+
+.categorias h2{
+
+    font-family:'Cinzel', serif;
+    font-size:42px;
+    color:#C9A14A;
+    margin-bottom:50px;
+
+}
+
+.contenedor-categorias{
+
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.categoria{
+
+    width:30%;
+    text-align:center;
+
+}
+
+.categoria-mujer,
+.categoria-hombre,
+.categoria-unisex{
+
+    width:100%;
+    height:400px;
+
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    border-radius:15px;
+
+}
+
+.categoria-mujer{
+
+    background-image:url(../media/categorias/dama.png);
+
+}
+
+.categoria-hombre{
+
+    background-image:url(../media/categorias/caballero.png);
+
+}
+
+.categoria-unisex{
+
+    background-image:url(../media/categorias/unisex.png);
+
+}
+
+.categoria h3{
+
+    font-family:'Cinzel', serif;
+    font-size:30px;
+    color:#2D2D2D;
+    margin:25px 0 15px;
+
+}
+
+.categoria a{
+
+    display:inline-block;
+    padding:12px 30px;
+    background-color:#C9A14A;
+    color:#FFFFFF;
+    text-decoration:none;
+    border-radius:30px;
+    font-family:'Montserrat', sans-serif;
+    transition:0.3s;
+
+}
+
+.categoria a:hover{
+
+    background-color:#B58E3B;
+
+}

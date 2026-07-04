@@ -1,0 +1,468 @@
+/* BANNER */
+
+.banner-unisex {
+
+    width: 100%;
+    height: 500px;
+    background-image: url(../media/banners/banner-unisex.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-contenido {
+
+    text-align: center;
+    color: #242424;
+    width: 35%;
+
+}
+
+.banner-contenido h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 58px;
+    margin-bottom: 20px;
+
+}
+
+.banner-contenido p {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+/* MARCAS */
+
+.marca-perfume {
+
+    width: 90%;
+    margin: 80px auto;
+    justify-content: space-around;
+
+}
+
+.marca-perfume h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    color: #C9A14A;
+    border-bottom: 2px solid #C9A14A;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+
+}
+
+/* TARJETAS - PERFUMES */
+
+.contenedor-perfumes {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.perfume {
+
+    width: 220px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.perfume h3 {
+
+    margin-top: 15px;
+    color: #2D2D2D;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+
+}
+
+/* IMAGEN - PERFUMES */
+
+.perfume div {
+
+    width: 220px;
+    height: 260px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .12);
+
+}
+
+.perfume:hover div {
+
+    transform: translateY(-10px);
+
+}
+
+.bhararaniche {
+
+    background-image: url(../media/perfumes/unisex/bhararaniche.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.bleeckerstreet {
+
+    background-image: url(../media/perfumes/unisex/bleeckerstreet.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.baccaratrouge540 {
+
+    background-image: url(../media/perfumes/unisex/baccaratrouge540.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.amberoudgoldedition {
+
+    background-image: url(../media/perfumes/unisex/amberoudgoldedition.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.amberoudrouge {
+
+    background-image: url(../media/perfumes/unisex/amberoudrouge.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.intensecafe {
+
+    background-image: url(../media/perfumes/unisex/intensecafe.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.starrynight {
+
+    background-image: url(../media/perfumes/unisex/starrynight.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.tobaccovanille {
+
+    background-image: url(../media/perfumes/unisex/tobaccovanille.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.royalamber {
+
+    background-image: url(../media/perfumes/unisex/royalamber.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.amberrouge {
+
+    background-image: url(../media/perfumes/unisex/amberrouge.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.saffron {
+
+    background-image: url(../media/perfumes/unisex/saffron.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.femme {
+
+    background-image: url(../media/perfumes/unisex/femme.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.kakumo {
+
+    background-image: url(../media/perfumes/unisex/kakumo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.roso {
+
+    background-image: url(../media/perfumes/unisex/roso.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.sexysexuel {
+
+    background-image: url(../media/perfumes/unisex/sexysexuel.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.amethyst {
+
+    background-image: url(../media/perfumes/unisex/amethyst.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.khamrah {
+
+    background-image: url(../media/perfumes/unisex/khamrah.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.badeealoudforglory {
+
+    background-image: url(../media/perfumes/unisex/badeealoudforglory.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.sublime {
+
+    background-image: url(../media/perfumes/unisex/sublime.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.universe {
+
+    background-image: url(../media/perfumes/unisex/universe.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.emeer {
+
+    background-image: url(../media/perfumes/unisex/emeer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.honoryglory {
+
+    background-image: url(../media/perfumes/unisex/honoryglory.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.odysseylimoni {
+
+    background-image: url(../media/perfumes/unisex/odysseylimoni.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.toy2pear {
+
+    background-image: url(../media/perfumes/unisex/toy2pear.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/* MODAL */
+
+.modal {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .65);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+    overflow-y: auto;
+    z-index: 999;
+
+}
+
+.modal:target {
+
+    display: flex;
+
+}
+
+.ventana {
+
+
+    width: 900px;
+    max-width: 90%;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    position: relative;
+
+}
+
+.modal-imagen {
+
+    width: 320px;
+    height: 420px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.modal-texto {
+
+    flex: 1;
+
+}
+
+.modal-texto h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    color: #C9A14A;
+
+}
+
+.modal-texto h4 {
+
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.modal-texto h5 {
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+    color: #C9A14A;
+
+}
+
+.modal-texto p {
+
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+
+}
+
+.modal-texto ul {
+
+    margin-left: 20px;
+    line-height: 30px;
+
+}
+
+.cerrar {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #F5F5F5;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #2D2D2D;
+    font-size: 22px;
+    transition: .3s;
+
+}
+
+.cerrar:hover {
+
+    background: #C9A14A;
+    color: #FFFFFF;
+
+}
+
+.boton-whatsapp {
+
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 35px;
+    background-color: #C9A14A;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: .3s;
+
+}
+
+.boton-whatsapp:hover {
+
+    background-color: #A88232;
+
+}

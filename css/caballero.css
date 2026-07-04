@@ -1,0 +1,500 @@
+/* BANNER */
+
+.banner-caballero {
+
+    width: 100%;
+    height: 500px;
+    background-image: url(../media/banners/banner-caballero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-contenido {
+
+    text-align: center;
+    color: #242424;
+    width: 40%;
+
+}
+
+.banner-contenido h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 58px;
+    margin-bottom: 20px;
+
+}
+
+.banner-contenido p {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+/* MARCAS */
+
+.marca-perfume {
+
+    width: 90%;
+    margin: 80px auto;
+    justify-content: space-around;
+
+}
+
+.marca-perfume h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    color: #C9A14A;
+    border-bottom: 2px solid #C9A14A;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+
+}
+
+/* TARJETAS - PERFUMES */
+
+.contenedor-perfumes {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.perfume {
+
+    width: 220px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.perfume h3 {
+
+    margin-top: 15px;
+    color: #2D2D2D;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+
+}
+
+/* IMAGEN - PERFUMES */
+
+.perfume div {
+
+    width: 220px;
+    height: 260px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, .12);
+
+}
+
+.perfume:hover div {
+
+    transform: translateY(-10px);
+
+}
+
+.phantom {
+
+    background-image: url(../media/perfumes/caballero/phantom.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.invictuslegend {
+
+    background-image: url(../media/perfumes/caballero/invictuslegend.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.onemillionelixir {
+
+    background-image: url(../media/perfumes/caballero/onemillionelixir.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.invictusvictory {
+
+    background-image: url(../media/perfumes/caballero/invictusvictory.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.parishiltonformen {
+
+    background-image: url(../media/perfumes/caballero/parishiltonformen.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.lapiduspourhomme {
+
+    background-image: url(../media/perfumes/caballero/lapiduspourhomme.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.formen360 {
+
+    background-image: url(../media/perfumes/caballero/formen360.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.redformen360 {
+
+    background-image: url(../media/perfumes/caballero/redformen360.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.polored {
+
+    background-image: url(../media/perfumes/caballero/polored.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.poloblue {
+
+    background-image: url(../media/perfumes/caballero/poloblue.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.tommy {
+
+    background-image: url(../media/perfumes/caballero/tommy.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.swissarmyclassic{
+
+    background-image: url(../media/perfumes/caballero/swissarmyclassic.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.uomoborninroma {
+
+    background-image: url(../media/perfumes/caballero/uomoborninroma.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.valentinouomo{
+
+    background-image: url(../media/perfumes/caballero/valentinouomo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+.eros{
+
+        background-image: url(../media/perfumes/caballero/eros.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.erosflame{
+
+        background-image: url(../media/perfumes/caballero/erosflame.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.maneaufraiche{
+
+        background-image: url(../media/perfumes/caballero/maneaufraiche.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.dylanblue{
+
+        background-image: url(../media/perfumes/caballero/dylanblue.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.pinosilvestre{
+
+        background-image: url(../media/perfumes/caballero/pinosilvestre.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.bhararaking{
+
+        background-image: url(../media/perfumes/caballero/bhararaking.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.odysseymandarinsky{
+
+        background-image: url(../media/perfumes/caballero/odysseymandarinsky.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.odysseywildonegold{
+
+        background-image: url(../media/perfumes/caballero/odysseywildonegold.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.odysseymega{
+
+        background-image: url(../media/perfumes/caballero/odysseymega.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.clubdenuitintenseman{
+
+        background-image: url(../media/perfumes/caballero/clubdenuitintenseman.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.aventus{
+
+        background-image: url(../media/perfumes/caballero/aventus.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.silvermountainwater{
+
+        background-image: url(../media/perfumes/caballero/silvermountainwater.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.greenirishtweed{
+
+    background-image: url(../media/perfumes/caballero/greenirishtweed.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.ombrenomade{
+
+    background-image: url(../media/perfumes/caballero/ombrenomade.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.asad{
+
+    background-image: url(../media/perfumes/caballero/asad.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.asadbourbon{
+
+    background-image: url(../media/perfumes/caballero/asadbourbon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+
+/* MODAL */
+
+.modal {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .65);
+    display: none;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+    overflow-y: auto;
+    z-index: 999;
+
+}
+
+.modal:target {
+
+    display: flex;
+
+}
+
+.ventana {
+
+
+    width: 900px;
+    max-width: 90%;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    position: relative;
+
+}
+
+.modal-imagen {
+
+    width: 320px;
+    height: 420px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.modal-texto {
+
+    flex: 1;
+
+}
+
+.modal-texto h2 {
+
+    font-family: 'Cinzel', serif;
+    font-size: 38px;
+    color: #C9A14A;
+
+}
+
+.modal-texto h4 {
+
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.modal-texto h5 {
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Cinzel', serif;
+    color: #C9A14A;
+
+}
+
+.modal-texto p {
+
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+
+}
+
+.modal-texto ul {
+
+    margin-left: 20px;
+    line-height: 30px;
+
+}
+
+.cerrar {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #F5F5F5;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: #2D2D2D;
+    font-size: 22px;
+    transition: .3s;
+
+}
+
+.cerrar:hover {
+
+    background: #C9A14A;
+    color: #FFFFFF;
+
+}
+
+.boton-whatsapp {
+
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 35px;
+    background-color: #C9A14A;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    transition: .3s;
+
+}
+
+.boton-whatsapp:hover {
+
+    background-color: #A88232;
+
+}
